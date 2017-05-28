@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Counter</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	
+<div id = "wrapper">
+
+<h1><span>Crystal Counter</span></h1>
+
+<div id = "instructions">
+
+	<p> You get a random number to start with. </p>
+
+	<p>By clicking on either of the 4 crystals, you'll add a specific amount of points.</p>
+
+	<p>You win by matching your total with the random number. You lose if the score is above the number!!</p>
+
+	</div>
+
+<div class = "container">
+	<div id = "randomNumber">
+		<h1> Number to guess!: <span class = "value"></span></h1>
+		</div>
+
+
+<div id = "scoreboard">
+	<h2><span id = "currentScore"></span></h2>
+	<h2> Wins: <span id = "wins"></span></h2>
+	<h2>Losses: <span id = "losses"></span></h2>
+
+	</div>
+
+</div>
+
+
+<div id = "crystals"></div>
+
+<div id = "finalScore">
+
+	<h3 id = "totalScore"> Your score is: <span id = "userScore"> 0 </span></h3>
+
+</div>
+
+</div>
+
+<!-- J Query -->
+
+<script type="text/javascript" src = "https://code.jquery.com/jquery-2.2.0.min.js" ></script>
+
+<script type="text/javascript" src = "assets/javascript/game.js"></script>
+
+</body>
+</html>
